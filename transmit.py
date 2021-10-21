@@ -8,20 +8,20 @@ args = parser.parse_args()
 
 def schalterAON():
     print("schalter A ON")
-    os.system("sudo ./433Utils/RPi_utils/codesend 5506385")
+    os.system("sudo /Home/pi/433Utils/RPi_utils/codesend 5506385")
 
 
 def schalterAOFF():
     print("schalter A OFF")
-    os.system("sudo ./433Utils/RPi_utils/codesend 5506388")
+    os.system("sudo /Home/pi/433Utils/RPi_utils/codesend 5506388")
 
 def schalterBON():
     print("schalter B ON")
-    os.system("sudo ./433Utils/RPi_utils/codesend 5509457")
+    os.system("sudo /Home/pi/433Utils/RPi_utils/codesend 5509457")
 
 def schalterBOFF():
     print("schalter B OFF")
-    os.system("sudo ./433Utils/RPi_utils/codesend 5509460")
+    os.system("sudo /Home/pi/433Utils/RPi_utils/codesend 5509460")
 
 
 
