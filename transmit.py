@@ -40,3 +40,5 @@ if args.arsch == "BON":
 if args.arsch == "BOFF":
     print('schaltera')
     schalterBOFF()
+
+print("nice")
